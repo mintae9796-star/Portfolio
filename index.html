@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>업무 접수 대장</title>
+<title>정민태 포트폴리오</title>
 <meta name="description" content="대출중개 회사의 상담 전산, 광고 랜딩페이지, 텔레그램 봇, 서버를 직접 만들고 운영한 기록">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -259,7 +259,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 <body>
 
 <header class="formhead"><div class="page">
- <span class="no">접수번호 20261116-PF-0001</span>
+ <span class="no">PORTFOLIO · 정민태</span>
  <nav aria-label="목차">
   <a href="#resume">이력서</a><a href="#letter">자기소개서</a><a href="#route">업무 흐름</a><a href="#files">서류철</a><a href="#report">경위서</a><a href="#contact">연락처</a>
  </nav>
@@ -280,12 +280,12 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
   </div>
  </div>
 
- <div class="app" aria-label="지원서">
-  <div class="app-top"><h2>지원서</h2><span class="mono">서식 NS-01</span></div>
+ <div class="app" aria-label="포트폴리오 표지">
+  <div class="app-top"><h2>포트폴리오</h2><span class="mono">VOL.01 · 2026</span></div>
   <table>
-   <tr><th>성명</th><td><span class="typed" data-text="정민태">정민태</span></td></tr>
-   <tr><th>하는 일</th><td><span class="typed" data-text="전산 개발 · 업무 자동화 · 서버 운영">전산 개발 · 업무 자동화 · 서버 운영</span></td></tr>
-   <tr><th>만든 것</th><td><span class="typed" data-text="상담 전산(CRM), 광고 랜딩페이지,&#10;텔레그램 업체 전달 봇, 사내 서버">상담 전산(CRM), 광고 랜딩페이지,
+   <tr><th>작성자</th><td><span class="typed" data-text="정민태">정민태</span></td></tr>
+   <tr><th>분야</th><td><span class="typed" data-text="전산 개발 · 업무 자동화 · 서버 운영">전산 개발 · 업무 자동화 · 서버 운영</span></td></tr>
+   <tr><th>수록 작업</th><td><span class="typed" data-text="상담 전산(CRM), 광고 랜딩페이지,&#10;텔레그램 업체 전달 봇, 사내 서버">상담 전산(CRM), 광고 랜딩페이지,
 텔레그램 업체 전달 봇, 사내 서버</span></td></tr>
    <tr><th>쓰는 도구</th><td><span class="typed" data-text="JavaScript · Python&#10;PocketBase · Cloudflare">JavaScript · Python
 PocketBase · Cloudflare</span></td></tr>
@@ -598,7 +598,7 @@ PocketBase · Cloudflare</span></td></tr>
 (()=>{
  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 
- // 지원서: 글씨가 써지고 마지막에 직인이 찍힘 (처음부터 내용은 다 보이는 상태에서 다시 써 보임)
+ // 표지: 글씨가 써지고 마지막에 직인이 찍힘 (처음부터 내용은 다 보이는 상태에서 다시 써 보임)
  const typed=[...document.querySelectorAll('.typed')],seal=document.getElementById('seal');
  if(!reduce){
   typed.forEach(t=>t.textContent='');seal.style.opacity=0;
